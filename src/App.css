@@ -1,6 +1,34 @@
 .App {
   text-align: center;
 }
+.nav {
+  display: flex;
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  padding-left: 20px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
+h4 > span {
+  cursor: pointer;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
+}
 
 .App-logo {
   height: 40vmin;
